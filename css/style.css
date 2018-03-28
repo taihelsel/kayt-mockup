@@ -1,9 +1,9 @@
 html,body{
     padding:0;
     margin:0;
-    overflow-x: hidden;
     background-color:var(--paper);
 }
+
 :root{
     --gold:#C0B283;
     --silk:#DCD0C0;
@@ -64,6 +64,7 @@ nav{
     height:100%;
     background-color: var(--pink);
     text-align: center;
+    overflow-x: hidden;
 }
 .landing-logo-wrapper{
     position: absolute;
@@ -106,6 +107,23 @@ nav{
 }
 /*Portfolio Page*/
 #portfolio{
+    width:100%;
+    text-align: center;
+}
+.portfolio-images-wrapper{
+    list-style: none;
+    padding:0;
+    width: 95%;
+    display: inline-table;
+    margin: 2em 0;
+}
+.portfolio-img-item{
+    display: inline-block;
+    width: 33.3%;
+    height: 30vmax;
+    border-radius: 3em;
+}
+.portfolio-img-item img{
     width:100%;
     height:100%;
 }
