@@ -59,9 +59,15 @@ nav{
     height:100%;
     filter: grayscale(200%);
 }
-.nav-item:hover{
+.nav-item:after {
+    display:block;
+    content: '';
+    margin-top:6px;
     border-bottom:3px solid var(--paper);
+    transform: scaleX(0);  
+    transition: transform 175ms ease-in-out;
 }
+.nav-item:hover:after { transform: scaleX(1); }
 /*Landing Page*/
 #landing{
     width:100%;
