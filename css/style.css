@@ -148,6 +148,9 @@ nav{
 /*Mobile Stuff*/
 @media only screen and (max-width:650px){
     /*Nav*/
+    .nav-pages{
+        width: 100%;
+    }
     .nav-item{
 
     }
@@ -155,7 +158,7 @@ nav{
         font-size: 4vmin;
     }
     /*Landing*/
-    .landing-logo{width: 80vmin;}
+    .landing-logo{width: 95%;}
     .landing-name-wrapper{}
     .landing-name{
         font-size: 4vmin;
