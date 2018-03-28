@@ -28,14 +28,17 @@ nav{
 }
 .nav-item{
     display: inline-block;
-    font-size: 1.3vmax;
     margin: 0 1vmax;
     padding: 1.5vmax 0.5vmax;
     cursor: pointer;
+}
+.nav-item a{
+    font-size: 1.3vmax;
     color: var(--paper);
     font-family: "Roboto",sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .nav-social{
     float:right;
@@ -56,7 +59,7 @@ nav{
     filter: grayscale(200%);
 }
 .nav-item:hover{
-    border-bottom:3px solid;
+    border-bottom:3px solid var(--paper);
 }
 /*Landing Page*/
 #landing{
