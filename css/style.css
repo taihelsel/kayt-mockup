@@ -198,5 +198,9 @@ nav{
             font-size:3vmin;
             letter-spacing: 1.8vmin;
         }
+        .ladning-model{
+            height:unset;
+            filter: blur(8px);
+        }
     }
 }
