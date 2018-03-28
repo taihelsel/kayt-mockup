@@ -41,6 +41,7 @@ nav{
     text-decoration: none;
 }
 .nav-social{
+    display:none;
     float:right;
     text-align: right;
     list-style: none;
@@ -88,6 +89,7 @@ nav{
     z-index: 0;
     width: 101%;
     height:100%;
+    filter:blur(2px);
 }
 .landing-name-wrapper{
     position: absolute;
@@ -127,6 +129,16 @@ nav{
     border-radius: 3em;
 }
 .portfolio-img-item img{
+    width:100%;
+    height:100%;
+}
+/*About Page*/
+#about{
+    width:100%;
+    height:100%;
+}
+/*Contact Page*/
+#contact{
     width:100%;
     height:100%;
 }
