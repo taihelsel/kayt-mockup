@@ -175,7 +175,7 @@ nav{
     height: 100%;
     filter: grayscale(125%);
 }
-.contact-item{text-align: center;letter-spacing: 1.1px;margin-bottom: 1.2vmax;font-family: "Roboto",sans-serif;font-weight: lighter;font-size: 3.2vmin;}
+.contact-item{text-align: center;letter-spacing: 1.1px;margin-bottom: 1.2vmax;font-family: "Roboto",sans-serif;font-weight: lighter;font-size: 1.7vmax;}
 .contact-logo{
     width: 23vmax;
     display: inline-block;
@@ -244,9 +244,7 @@ nav{
     .contact-logo{width: 42vmin;left: 3vmin;top: 16.56vmin;}
     .contacts-wrapper{display: block;margin: 5vmin 0;width: 54vmin;position: relative;left: 46vmin;text-align: center;}
     .contact-title{width: 50vmin;padding: 0;margin: 9;display: inline-block;padding-bottom: 2vmin;}
-    .contact-item{
-
-    }
+    .contact-item{font-size: 3.2vmin;}
     .contact-social{
 
     }
