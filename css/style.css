@@ -237,7 +237,7 @@ nav{
         float:left;
     }
     /*Contact*/
-    .contact-logo{width: 42vmin;left: 3vmin;top: 16.56vmin;}
+    .contact-logo{width: 42vmin;left: 3vmin;top: 13vmin;}
     .contacts-wrapper{display: block;margin: 5vmin 0;width: 54vmin;position: relative;left: 46vmin;text-align: center;}
     .contact-title{width: 50vmin;padding: 0;margin: 9;display: inline-block;padding-bottom: 2vmin;}
     .contact-item{
