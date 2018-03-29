@@ -224,13 +224,13 @@ nav{
     #about{
     }
     .about-text{
-        width: 91vmin;
+        width: 88vmin;
         font-size: 3.5vmin;
         margin-top: 9vmax;
         position: relative;
         display: block;
         top: unset;
-        margin-left: 4.5vmin;
+        margin-left: 8.55vmin;
         margin-bottom: 4vmin;
         word-break: break-all;
     }
