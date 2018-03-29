@@ -1,3 +1,6 @@
+# Project Length
+* 2 Days
+
 # Tech Used 
 * JavaScript
 * JQuery
@@ -6,4 +9,4 @@
 
 # Role
 * Designer
-* Developer
+* Devel
