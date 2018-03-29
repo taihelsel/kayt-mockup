@@ -150,6 +150,7 @@ nav{
     margin-left: 8vmax;
     font-size: 1.3vmax;
     top: 13vmax;
+    word-break: break-all;
 }
 /*Contact Page*/
 #contact{
@@ -187,6 +188,7 @@ nav{
     .nav-pages{
         width: 100%;
         text-align: center;
+        margin: 0;
     }
     .nav-item{
 
@@ -227,8 +229,9 @@ nav{
         position: relative;
         display: block;
         top: unset;
-        margin-left: 9vmin;
+        margin-left: 4.5vmin;
         margin-bottom: 4vmin;
+        word-break: break-all;
     }
     .about-headshot{
         width: 42vmin;
@@ -237,7 +240,7 @@ nav{
         float:left;
     }
     /*Contact*/
-    .contact-logo{width: 42vmin;left: 3vmin;top: 13vmin;}
+    .contact-logo{width: 42vmin;left: 3vmin;top: 16.56vmin;}
     .contacts-wrapper{display: block;margin: 5vmin 0;width: 54vmin;position: relative;left: 46vmin;text-align: center;}
     .contact-title{width: 50vmin;padding: 0;margin: 9;display: inline-block;padding-bottom: 2vmin;}
     .contact-item{
