@@ -192,8 +192,24 @@ nav{
     display: none;
     }
     /*About*/
-
-    
+    #about{
+    }
+    .about-text{
+        width: 91vmin;
+        font-size: 3.5vmin;
+        margin-top: 9vmax;
+        position: relative;
+        display: block;
+        top: unset;
+        margin-left: 9vmin;
+        margin-bottom: 4vmin;
+    }
+    .about-headshot{
+        width: 42vmin;
+        position: relative;
+        margin: 17vmin 4vmin 1.5vmin 9vmin;
+        float:left;
+    }
     /*Contact*/
 }
 
