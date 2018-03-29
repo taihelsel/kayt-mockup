@@ -9,4 +9,4 @@
 
 # Role
 * Designer
-* Devel
+* Developer
