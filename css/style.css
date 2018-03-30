@@ -139,6 +139,7 @@ nav{
     position: relative;
     margin: 10vmax 0 7vmax 5vmax;
     filter: grayscale(26%);
+    max-width: 420px;
 }
 .about-header{position: absolute;top: 0;width: 100%;text-align: center;font-size: 3vmax;font-weight: lighter;font-family: "Raleway", sans-serif;color: var(--charcoal);}
 .about-text{
@@ -147,8 +148,8 @@ nav{
     display: inline-block;
     width: 44vw;
     position: absolute;
-    margin-left: 8vmax;
-    font-size: 1.3vmax;
+    margin-left: 6vmax;
+    font-size: 1.2vmax;
     top: 13vmax;
     word-break: break-all;
 }
